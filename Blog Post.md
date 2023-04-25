@@ -13,7 +13,7 @@ Thus, our main objective is to answer the following questions:
 
 We'll be using a dataset from [Kaggle](https://www.kaggle.com/datasets/airbnb/seattle) that contains information about Airbnb listings in Seattle The dataset includes features such as the neighborhood, property type, number of bedrooms, and availability.
 
-## Explanation
+## Coding process explanation
 
 
 - We first import the necessary libraries: `pandas` for working with data frames, `Lasso` from the `sklearn.linear_model` module for the Lasso model, `train_test_split` from the `sklearn.model_selection` module to split the data into training and testing sets, and `mean_squared_error` from the `sklearn.metrics` module to calculate the mean squared error.
@@ -33,22 +33,43 @@ We'll be using a dataset from [Kaggle](https://www.kaggle.com/datasets/airbnb/se
 
 ## Top 15 most important features:
 ```python
-#1. 'availability_90',
-#2. 'availability_60',
-#3. 'availability_365',
-'neighbourhood_group_cleansed_Queen Anne',
-'neighbourhood_group_cleansed_Ballard',
-'property_type_Condominium',
-'bed_type_Futon',
-'bed_type_Pull-out Sofa',
-'neighbourhood_group_cleansed_Lake City',
-'bed_type_Couch',
-'host_identity_verified_t',
-'host_years',
- 'neighbourhood_group_cleansed_Other neighborhoods',
- 'host_total_listings_count'
+| **Column**           | **Description**                                     |
+|----------------------|-----------------------------------------------------|
+| id                   | key                                                 |
+| imdb_id              | imbd key                                            |
+| popularity           | number of views                                     |
+| budget               | money spent on the movie                            |
+| revenue              | money gained                                        |
+| original_title       | title in original language                          |
+| cast                 | principal actors                                    |
+| homepage             | link to the movies webpage                          |
+| director             | director's names                                    |
+| tagline              | movie's tagline                                     |
+| keywords             | words that are useful to find or refer to the movie |
+| overview             | short description of the movie                      |
+| runtime              | lenght in minutes                                   |
+| genres               | what genres is the movie associated with            |
+| production_companies | companies involved in the production                |
+| release_date         | release date                                        |
+| vote_count           | how many votes did it receive on IMDB               |
+| vote_average         | what was average rating on IMDB                     |
+| release_year         | year of release                                     |
+| budget_adj           | asjusted budget                                     |
+| revenue_adj          | adjusted revenue                                    |
 ```
 
-## Conclusion
+## Conclusions
 
-The most important feature to predict the price is the recent availability. We can also conclude that some neighbourhood in Seattle are more expensive than others.
+There are 4 identifiable groups among the top 15 features:
+**Group 1: Availability**
+- 60 days, 90 days, 365 days.
+**Group 2: Neihbourhood**
+- Queen Anne, Ballard, Lake City, Other neighborhood.
+**Group 3: Property Features**
+- Condominium, Townhouse, bed type: Futon, Pull-out Sofa, Couch
+**Group 4: Host Features**
+- Host's identity verified, years as a host, host's total listings.
+
+With this in mind, we can answer to our business questions:
+**1. Which appartment's features will give the host the opportinity to -easily- to charge more?**
+- Group 3 helps us answer:
