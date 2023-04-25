@@ -4,13 +4,17 @@
 
 Airbnb has revolutionized the travel industry by allowing people to rent out their homes or apartments to travelers. As a host, setting the right price for your Airbnb is key to attracting guests and maximizing your earnings. In this post, we'll use a Lasso regression model to predict Airbnb prices and identify the most important features that contribute to those prices.
 
+Thus, our main objective is to answer the following questions:
+1. Which appartment's features will give the host the opportinity to -easily- to charge more?
+2. What are the most desired areas of Seattle, for Airbnb guests?
+3. What are some key recommendations for the host?
+
 ## Data
 
 We'll be using a dataset from [Kaggle](https://www.kaggle.com/datasets/airbnb/seattle) that contains information about Airbnb listings in Seattle The dataset includes features such as the neighborhood, property type, number of bedrooms, and availability.
 
 ## Explanation
 
-Let's break down the code step by step:
 
 - We first import the necessary libraries: `pandas` for working with data frames, `Lasso` from the `sklearn.linear_model` module for the Lasso model, `train_test_split` from the `sklearn.model_selection` module to split the data into training and testing sets, and `mean_squared_error` from the `sklearn.metrics` module to calculate the mean squared error.
 - We then unzip the data.
