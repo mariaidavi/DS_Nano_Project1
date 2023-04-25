@@ -56,10 +56,13 @@ There are 4 identifiable groups among the top 15 features:
 
 **Group 1: Availability**
  - 60 days, 90 days, 365 days.
+
 **Group 2: Neihbourhood**
  - Queen Anne, Ballard, Lake City, Other neighborhood.
+
 **Group 3: Property Features**
  - Condominium, Townhouse, bed type: Futon, Pull-out Sofa, Couch
+
 **Group 4: Host Features**
  - Host's identity verified, years as a host, host's total listings.
 
