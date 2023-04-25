@@ -32,7 +32,7 @@ We'll be using a dataset from [Kaggle](https://www.kaggle.com/datasets/airbnb/se
 - We build a bar plot and then get the list of features, shown here:
 
 ## Top 15 most important features:
-```python
+
 | **Column**           | **Description**                                     |
 |----------------------|-----------------------------------------------------|
 | id                   | key                                                 |
@@ -56,7 +56,7 @@ We'll be using a dataset from [Kaggle](https://www.kaggle.com/datasets/airbnb/se
 | release_year         | year of release                                     |
 | budget_adj           | asjusted budget                                     |
 | revenue_adj          | adjusted revenue                                    |
-```
+
 
 ## Conclusions
 
