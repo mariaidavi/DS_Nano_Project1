@@ -15,7 +15,6 @@ We'll be using a dataset from [Kaggle](https://www.kaggle.com/datasets/airbnb/se
 
 ## Coding process explanation
 
-
 - We first import the necessary libraries: `pandas` for working with data frames, `Lasso` from the `sklearn.linear_model` module for the Lasso model, `train_test_split` from the `sklearn.model_selection` module to split the data into training and testing sets, and `mean_squared_error` from the `sklearn.metrics` module to calculate the mean squared error.
 - We then unzip the data.
 - After exploring the features and their values, we decide that we'll continue the analysis with only the apartments that have been available at least one day in the studied year.
@@ -54,5 +53,16 @@ We'll be using a dataset from [Kaggle](https://www.kaggle.com/datasets/airbnb/se
 ## Conclusions
 
 There are 4 identifiable groups among the top 15 features:
-  **Group 1: Availability**
-    - 60 days, 90 days, 365 days.
+
+**Group 1: Availability**
+ - 60 days, 90 days, 365 days.
+**Group 2: Neihbourhood**
+ - Queen Anne, Ballard, Lake City, Other neighborhood.
+**Group 3: Property Features**
+ - Condominium, Townhouse, bed type: Futon, Pull-out Sofa, Couch
+**Group 4: Host Features**
+ - Host's identity verified, years as a host, host's total listings.
+
+With this in mind, we can answer to our business questions:
+**1. Which appartment's features will give the host the opportinity to -easily- to charge more?**
+- Group 3 helps us answer:
