@@ -4,6 +4,7 @@ This repository contains the code and data for my blog post about using Lasso re
 
 ## Contents
 
+- [Blogpost](https://github.com/mariaidavi/DS_Nano_Project1/blob/main/Blog%20Post.md)
 - `calendar.csv`: the raw data file downloaded from [Kaggle](https://www.kaggle.com/datasets/airbnb/seattle)
 - `listings.csv`: the raw data file downloaded from [Kaggle](https://www.kaggle.com/datasets/airbnb/seattle)
 - `Proyecto 1 Udacity.ipynb`: a Jupyter notebook with the code for the Lasso model
