@@ -33,30 +33,23 @@ We'll be using a dataset from [Kaggle](https://www.kaggle.com/datasets/airbnb/se
 
 ## Top 15 most important features:
 
-| **Column**           | **Description**                                     |
-|----------------------|-----------------------------------------------------|
-| id                   | key                                                 |
-| imdb_id              | imbd key                                            |
-| popularity           | number of views                                     |
-| budget               | money spent on the movie                            |
-| revenue              | money gained                                        |
-| original_title       | title in original language                          |
-| cast                 | principal actors                                    |
-| homepage             | link to the movies webpage                          |
-| director             | director's names                                    |
-| tagline              | movie's tagline                                     |
-| keywords             | words that are useful to find or refer to the movie |
-| overview             | short description of the movie                      |
-| runtime              | lenght in minutes                                   |
-| genres               | what genres is the movie associated with            |
-| production_companies | companies involved in the production                |
-| release_date         | release date                                        |
-| vote_count           | how many votes did it receive on IMDB               |
-| vote_average         | what was average rating on IMDB                     |
-| release_year         | year of release                                     |
-| budget_adj           | asjusted budget                                     |
-| revenue_adj          | adjusted revenue                                    |
-
+| **Variable Name**                         | **Coefficient** |
+|-------------------------------------------|-----------------|
+| bedrooms                                  | 26.431984       |
+| room_type_Entire home/apt                 | 16.250019       |
+| bathrooms                                 | 12.690958       |
+| accommodates                              | 9.698379        |
+| neighbourhood_group_cleansed_Downtown     | 9.521042        |
+| host_response_time_num                    | -7.369377       |
+| property_type_Boat                        | 7.241013        |
+| neighbourhood_group_cleansed_Queen Anne   | 6.964313        |
+| cleaning_fee                              | 6.708912        |
+| guests_included                           | 6.405995        |
+| neighbourhood_group_cleansed_Capitol Hill | 5.834072        |
+| room_type_Shared room                     | -4.803910       |
+| security_deposit                          | 3.730365        |
+| review_scores_cleanliness                 | 3.260269        |
+| reviews_per_month                         | -3.244828       |
 
 ## Conclusions
 
