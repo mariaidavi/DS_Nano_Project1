@@ -54,15 +54,5 @@ We'll be using a dataset from [Kaggle](https://www.kaggle.com/datasets/airbnb/se
 ## Conclusions
 
 There are 4 identifiable groups among the top 15 features:
-**Group 1: Availability**
-- 60 days, 90 days, 365 days.
-**Group 2: Neihbourhood**
-- Queen Anne, Ballard, Lake City, Other neighborhood.
-**Group 3: Property Features**
-- Condominium, Townhouse, bed type: Futon, Pull-out Sofa, Couch
-**Group 4: Host Features**
-- Host's identity verified, years as a host, host's total listings.
-
-With this in mind, we can answer to our business questions:
-**1. Which appartment's features will give the host the opportinity to -easily- to charge more?**
-- Group 3 helps us answer:
+  **Group 1: Availability**
+    - 60 days, 90 days, 365 days.
