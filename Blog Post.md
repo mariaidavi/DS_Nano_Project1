@@ -44,28 +44,34 @@ We'll be using a dataset from [Kaggle](https://www.kaggle.com/datasets/airbnb/se
 | neighbourhood_group_cleansed_Queen Anne   | 6.964313        |
 | cleaning_fee                              | 6.708912        |
 | guests_included                           | 6.405995        |
-| neighbourhood_group_cleansed_Capitol Hill | 5.834072        |
-| room_type_Shared room                     | -4.803910       |
-| security_deposit                          | 3.730365        |
-| review_scores_cleanliness                 | 3.260269        |
-| reviews_per_month                         | -3.244828       |
 
 ## Conclusions
 
 There are 4 identifiable groups among the top 15 features:
 
-**Group 1: Availability**
- - 60 days, 90 days, 365 days.
+**Group 1: Property Features (Variable)**
+ - bedrooms, bathrooms, accomodates, guests included, cleaning fee, room type, property type.
 
-**Group 2: Neihbourhood**
- - Queen Anne, Ballard, Lake City, Other neighborhood.
+**Group 2: Neighbourhood**
+ - Downtown, Queen Anne.
 
-**Group 3: Property Features**
- - Condominium, Townhouse, bed type: Futon, Pull-out Sofa, Couch
-
-**Group 4: Host Features**
- - Host's identity verified, years as a host, host's total listings.
+**Group 3: Host Features**
+ - Host's responde time.
 
 With this in mind, we can answer to our business questions:
+
 **1. Which appartment's features will give the host the opportinity to -easily- to charge more?**
-- Group 3 helps us answer:
+
+Group 1 helps us answer:
+- The amount of bedrooms significantly rises de price, so if the aparment has extra space, turning it into a bedroom might be a good idea.
+- This is in line with the amount of people it can accomodate and if it includes guests.
+
+**2. What are the most desired areas of Seattle, for Airbnb guests?**
+
+Group 2 helps us answer:
+- Downtown and Queen Anne are both great locations!
+
+**3. What are some key recommendations for the host?**
+
+Group 3 helps us answer:
+- The amount of time the host takes to answer is inversely related to the price, so if a host wants to charge more, he should be fast replying to het guests.
