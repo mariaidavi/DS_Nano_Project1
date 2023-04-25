@@ -29,16 +29,26 @@ We'll be using a dataset from [Kaggle](https://www.kaggle.com/datasets/airbnb/se
 - We calculate the mean squared error between the predicted values and the actual values using the `mean_squared_error()` function.
 - We print the mean squared error and the coefficients of the Lasso model, which give us an idea of the importance of each feature in predicting Airbnb prices.
 - Finally we look for the variables that appear to have coefficients = 0, i.e have no impact in the price prediction, as well as for the coefficients bigger than 0.
-- We build a bar plot and then get the list of features, show here:
+- We build a bar plot and then get the list of features, shown here:
 
+## Top 15 most important features:
 ```python
-'availability_90',
-'availability_60',
-'availability_365',
+#1. 'availability_90',
+#2. 'availability_60',
+#3. 'availability_365',
 'neighbourhood_group_cleansed_Queen Anne',
-'neighbourhood_group_cleansed_Ballard'
+'neighbourhood_group_cleansed_Ballard',
+'property_type_Condominium',
+'bed_type_Futon',
+'bed_type_Pull-out Sofa',
+'neighbourhood_group_cleansed_Lake City',
+'bed_type_Couch',
+'host_identity_verified_t',
+'host_years',
+ 'neighbourhood_group_cleansed_Other neighborhoods',
+ 'host_total_listings_count'
 ```
 
-## Results
+## Conclusion
 
 The most important feature to predict the price is the recent availability. We can also conclude that some neighbourhood in Seattle are more expensive than others.
