@@ -1,5 +1,7 @@
 # Some Data-Driven Tips to Increase Income as an Airbnb Host
-
+<img src="seattle.jpg"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 ## Introduction
 
 Airbnb has revolutionized the travel industry by allowing people to rent out their homes or apartments to travelers. As a host, setting the right price for your Airbnb is key to attracting guests and maximizing your earnings. In this post, we'll use a Lasso regression model to predict Airbnb prices and identify the most important features that contribute to those prices.
