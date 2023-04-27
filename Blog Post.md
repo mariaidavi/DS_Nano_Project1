@@ -1,4 +1,4 @@
-# Lasso Regression to Predict Airbnb Prices
+# Some Data-Driven Tips to Increase Income as an Airbnb Host
 
 ## Introduction
 
