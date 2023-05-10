@@ -14,6 +14,8 @@ After running a Lasso model, we found that:
 2. Downtown, Queen Anne and Capitol Hill are the most desired locations for Airbnb guests in Seattle.
 3. Short response periods are very valued by guests.
 
+All the relevant contents that will lead you to these 3 conclusions are right here:
+
 ## Contents
 
 - [Blogpost](https://github.com/mariaidavi/DS_Nano_Project1/blob/main/Blog%20Post.md)
