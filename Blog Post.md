@@ -94,11 +94,12 @@ Group 3 helps us answer:
 
 The data has the 5 following response time categories:
 
-Within an hour.
-Within a few hours.
-Within a day.
-A few days or more.
-(0) None of the above.
+1. Within an hour.
+2. Within a few hours.
+3. Within a day.
+4. A few days or more.
+5. (0) None of the above.
+
 The graph shows us how price tends to drop when response time increases.
 
 ## Conclusions
