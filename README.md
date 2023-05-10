@@ -7,6 +7,13 @@ Our motivation was to explore the potential of applying Data Science on real-wor
 2. What are the most desired areas of Seattle, for Airbnb guests?
 3. What are some key recommendations for the host?
 
+## Findings
+
+After running a Lasso model, we found that:
+1. More bedrooms help dramatically to increase the price to be charged.
+2. Downtown, Queen Anne and Capitol Hill are the most desired locations for Airbnb guests in Seattle.
+3. Short response periods are very valued by guests.
+
 ## Contents
 
 - [Blogpost](https://github.com/mariaidavi/DS_Nano_Project1/blob/main/Blog%20Post.md)
