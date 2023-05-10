@@ -58,22 +58,31 @@ There are 4 identifiable groups among the top 15 features:
  - Downtown, Queen Anne.
 
 **Group 3: Host Features**
- - Host's responde time.
+ - Host's response time.
 
 With this in mind, we can answer to our business questions:
 
 **1. Which appartment's features will give the host the opportinity to -easily- to charge more?**
-
+<img src="bedrooms.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 Group 1 helps us answer:
 - The amount of bedrooms significantly rises de price, so if the aparment has extra space, turning it into a bedroom might be a good idea.
 - This is in line with the amount of people it can accomodate and if it includes guests.
 
 **2. What are the most desired areas of Seattle, for Airbnb guests?**
-
+<img src="location.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 Group 2 helps us answer:
 - Downtown and Queen Anne are both great locations!
 
 **3. What are some key recommendations for the host?**
-
+<img src="response time.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 Group 3 helps us answer:
-- The amount of time the host takes to answer is inversely related to the price, so if a host wants to charge more, he should be fast replying to het guests.
+- The amount of time the host takes to answer is inversely related to the price, so if a host wants to charge more, he should be fast replying to the guests.
+
+## Conclusions
+Airbnb has disrupted the traditional hotel industry by offering travelers affordable and unique accommodation options. Predicting Airbnb prices can help hosts set competitive rates, which can potentially increase revenue and boost the local economy. With the help of a Lasso model we were able to discover that features such as bedrooms, bathrooms, accomodates, guests included, cleaning fee, room type and property type matter significantly when setting the price. We also learnt that there are some key spots in town that potential hosts should check out if they're willing to take the most advantage possible of the deal. Finally we proved that a more diligent host will be able to charge more.
