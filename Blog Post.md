@@ -81,6 +81,8 @@ Group 1 helps us answer:
 Group 2 helps us answer:
 - Downtown and Queen Anne are both great locations!
 
+When plotting the correlation between an apartment located in each of these neighbourhoods (x axis equal to 1), and the price. One can see a positive trend (red line) between each pair of variables.
+
 **3. What are some key recommendations for the host?**
 
 <img src="response time.png"
@@ -89,6 +91,15 @@ Group 2 helps us answer:
  
 Group 3 helps us answer:
 - The amount of time the host takes to answer is inversely related to the price, so if a host wants to charge more, he should be fast replying to the guests.
+
+The data has the 5 following response time categories:
+
+Within an hour.
+Within a few hours.
+Within a day.
+A few days or more.
+(0) None of the above.
+The graph shows us how price tends to drop when response time increases.
 
 ## Conclusions
 Airbnb has disrupted the traditional hotel industry by offering travelers affordable and unique accommodation options. Predicting Airbnb prices can help hosts set competitive rates, which can potentially increase revenue and boost the local economy. With the help of a Lasso model we were able to discover that features such as bedrooms, bathrooms, accomodates, guests included, cleaning fee, room type and property type matter significantly when setting the price. We also learnt that there are some key spots in town that potential hosts should check out if they're willing to take the most advantage possible of the deal. Finally we proved that a more diligent host will be able to charge more.
